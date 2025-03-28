@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 // Function to establish the database connection
 async function connectToDatabase() {
     try {
-        const dbUrl = 'mongodb+srv://admin:Admin123@cluster0.a0dwc.mongodb.net/freeminersDb'
+        const dbUrl = 'mongodb+srv://fm:*****@cluster0.nilq1.mongodb.net/test'
         await mongoose.connect(dbUrl, {
             useNewUrlParser: true,
             useUnifiedTopology: true,
